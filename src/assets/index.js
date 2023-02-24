@@ -29,6 +29,8 @@ import mailbox from "./mailbox.png";
 import gear from "./gear.png";
 import chatbubble from "./chatbubble.png";
 import headphones from "./headphones.png";
+import microphone from "./microphone.png";
+import camera from "./camera.png";
 
 export {
   airbnb,
@@ -62,4 +64,6 @@ export {
   gear,
   chatbubble,
   headphones,
+  microphone,
+  camera,
 };

@@ -30,13 +30,14 @@ const Business = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Connect with your fans, <br className="sm:block hidden" /> and share
-          your music online.
+          your events online.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With our live streaming platform for artists, you can take your music
-          career to the next level. Connect with your fans, monetize your music,
-          and share your talent with the world. Contact us today to learn more
-          about our platform and start building your own live streaming website.
+          With our live streaming platform for events, you can take your event
+          to the next level. Connect with your audience, monetize your event,
+          and share your content with the world. Contact us today to learn more
+          about our platform and start building your own live streaming website
+          for your event.
         </p>
 
         <Button styles={`mt-10`} />

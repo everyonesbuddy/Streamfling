@@ -1,7 +1,6 @@
 import {
   people01,
   people02,
-  people03,
   facebook,
   instagram,
   linkedin,
@@ -10,11 +9,7 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
   star,
-  megaphone,
-  mailbox,
   gear,
   chatbubble,
 } from "../assets";
@@ -47,7 +42,7 @@ export const features = [
     icon: gear,
     title: "Secure Payment Processing",
     content:
-      "Our platform includes secure payment processing, so you can easily monetize your live streams and earn revenue from your music.",
+      "Our platform includes secure payment processing, so you can easily monetize your live streams and earn revenue from your events.",
   },
   {
     id: "feature-3",

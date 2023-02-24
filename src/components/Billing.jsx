@@ -1,11 +1,11 @@
-import { apple, bill, google, headphones } from "../assets";
+import { camera } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="product" className={`${layout.sectionReverse} ml-20 mr-20`}>
     <div className={layout.sectionImgReverse}>
       <img
-        src={headphones}
+        src={camera}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
       />
@@ -22,11 +22,12 @@ const Billing = () => (
         with Streamfling
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our mission is to provide artists with the tools and resources they need
-        to build a successful online presence. Whether you're a singer,
-        songwriter, or musician, we're here to help you take your music career
-        to the next level. With our live streaming platform, you can share your
-        music with the world and connect with your fans in a meaningful way.
+        Our mission is to provide event organizers with the tools and resources
+        they need to build a successful online presence. Whether you're hosting
+        a conference, festival, or other type of event, we're here to help you
+        take your event to the next level. With our live streaming platform, you
+        can share your event with the world and connect with your audience in a
+        meaningful way.
       </p>
     </div>
   </section>
